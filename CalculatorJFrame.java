@@ -13,7 +13,7 @@ String operator,ans;
     
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+                       
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -290,113 +290,113 @@ String operator,ans;
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void jButton_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_3ActionPerformed
+    private void jButton_3ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         String s=jTextField_display.getText();
         if(s.startsWith("0"))
         jTextField_display.setText("3");
          else
         jTextField_display.setText(s+"3");
-    }//GEN-LAST:event_jButton_3ActionPerformed
+    }                                         
 
-    private void jButton_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_6ActionPerformed
+    private void jButton_6ActionPerformed(java.awt.event.ActionEvent evt) {                                          
          String s=jTextField_display.getText();
          if(s.startsWith("0"))
         jTextField_display.setText("6");
          else
         jTextField_display.setText(s+"6");        
-    }//GEN-LAST:event_jButton_6ActionPerformed
+    }                                         
 
-    private void jButton_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_9ActionPerformed
+    private void jButton_9ActionPerformed(java.awt.event.ActionEvent evt) {                                          
          String s=jTextField_display.getText();
          if(s.startsWith("0"))
         jTextField_display.setText("9");
          else
         jTextField_display.setText(s+"9");        
-    }//GEN-LAST:event_jButton_9ActionPerformed
+    }                                         
 
-    private void jButton_minusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_minusActionPerformed
+    private void jButton_minusActionPerformed(java.awt.event.ActionEvent evt) {                                              
         num1=Double.parseDouble(jTextField_display.getText());
         jTextField_display.setText("");
         operator="-";
-    }//GEN-LAST:event_jButton_minusActionPerformed
+    }                                             
 
-    private void jButton_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_2ActionPerformed
+    private void jButton_2ActionPerformed(java.awt.event.ActionEvent evt) {                                          
        String s=jTextField_display.getText();
        if(s.startsWith("0"))
         jTextField_display.setText("2");
          else
         jTextField_display.setText(s+"2");     
-    }//GEN-LAST:event_jButton_2ActionPerformed
+    }                                         
 
-    private void jButton_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_8ActionPerformed
+    private void jButton_8ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         String s=jTextField_display.getText();
         if(s.startsWith("0"))
         jTextField_display.setText("8");
          else
         jTextField_display.setText(s+"8");
-    }//GEN-LAST:event_jButton_8ActionPerformed
+    }                                         
 
-    private void jButton_multiplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_multiplyActionPerformed
+    private void jButton_multiplyActionPerformed(java.awt.event.ActionEvent evt) {                                                 
         num1=Double.parseDouble(jTextField_display.getText());
         jTextField_display.setText("");
         operator="*";
-    }//GEN-LAST:event_jButton_multiplyActionPerformed
+    }                                                
 
-    private void jButton_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_1ActionPerformed
+    private void jButton_1ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         String s=jTextField_display.getText();
         if(s.startsWith("0"))
         jTextField_display.setText("1");
          else
         jTextField_display.setText(s+"1");
-    }//GEN-LAST:event_jButton_1ActionPerformed
+    }                                         
 
-    private void jButton_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_4ActionPerformed
+    private void jButton_4ActionPerformed(java.awt.event.ActionEvent evt) {                                          
          String s=jTextField_display.getText();
          if(s.startsWith("0"))
         jTextField_display.setText("4");
          else
         jTextField_display.setText(s+"4");
-    }//GEN-LAST:event_jButton_4ActionPerformed
+    }                                         
 
-    private void jButton_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_5ActionPerformed
+    private void jButton_5ActionPerformed(java.awt.event.ActionEvent evt) {                                          
        String s=jTextField_display.getText();
        if(s.startsWith("0"))
         jTextField_display.setText("5");
          else
         jTextField_display.setText(s+"5");
-    }//GEN-LAST:event_jButton_5ActionPerformed
+    }                                         
 
-    private void jButton_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_7ActionPerformed
+    private void jButton_7ActionPerformed(java.awt.event.ActionEvent evt) {                                          
        String s=jTextField_display.getText();
        if(s.startsWith("0"))
         jTextField_display.setText("7");
          else
         jTextField_display.setText(s+"7");
-    }//GEN-LAST:event_jButton_7ActionPerformed
+    }                                         
 
-    private void jButton_0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_0ActionPerformed
+    private void jButton_0ActionPerformed(java.awt.event.ActionEvent evt) {                                          
          String s=jTextField_display.getText();
          if(s.startsWith("0"))
         jTextField_display.setText("0");
          else
         jTextField_display.setText(s+"0");
-    }//GEN-LAST:event_jButton_0ActionPerformed
+    }                                         
 
-    private void jButton_dividerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_dividerActionPerformed
+    private void jButton_dividerActionPerformed(java.awt.event.ActionEvent evt) {                                                
         num1=Double.parseDouble(jTextField_display.getText());
         jTextField_display.setText("");
         operator="/";
-    }//GEN-LAST:event_jButton_dividerActionPerformed
+    }                                               
 
-    private void jButton_plusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_plusActionPerformed
+    private void jButton_plusActionPerformed(java.awt.event.ActionEvent evt) {                                             
         num1=Double.parseDouble(jTextField_display.getText());
         jTextField_display.setText("");
         operator="+";
-    }//GEN-LAST:event_jButton_plusActionPerformed
+    }                                            
 
-    private void jButton_equalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_equalActionPerformed
+    private void jButton_equalActionPerformed(java.awt.event.ActionEvent evt) {                                              
         num2=Double.parseDouble(jTextField_display.getText());
         switch(operator)
         {
@@ -430,15 +430,15 @@ String operator,ans;
             
             
         }
-    }//GEN-LAST:event_jButton_equalActionPerformed
+    }                                             
 
-    private void jButton_ClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_ClearActionPerformed
+    private void jButton_ClearActionPerformed(java.awt.event.ActionEvent evt) {                                              
         jTextField_display.setText("");
-    }//GEN-LAST:event_jButton_ClearActionPerformed
+    }                                             
 
-    private void jTextField_displayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_displayActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField_displayActionPerformed
+    private void jTextField_displayActionPerformed(java.awt.event.ActionEvent evt) {                                                   
+        
+    }                                                  
 
     
    
@@ -451,7 +451,7 @@ String operator,ans;
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.ButtonGroup buttonGroup3;
@@ -478,12 +478,12 @@ String operator,ans;
     private javax.swing.JColorChooser jColorChooser3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField_display;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 
     private static class jTextFiled_display {
 
         private static void setText(String string) {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+            throw new UnsupportedOperationException("Not supported yet."); 
         }
 
         public jTextFiled_display() {
